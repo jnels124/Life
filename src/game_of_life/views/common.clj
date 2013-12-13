@@ -5,7 +5,7 @@
 (defpartial game-layout [& content]
   (html5
     [:head
-      [:title "Interactive Game of Life"]
+      [:title "Game of Life"]
       (include-css "/css/reset.css")
 	  (include-css "/css/gof.css")]
     [:body

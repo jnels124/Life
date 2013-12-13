@@ -1,0 +1,1 @@
+web: lein run -m game-of-life.server
