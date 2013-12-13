@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css"/>
+  <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+</head>
+<!-- <body> -->
+  <div data-role="page">
+    <div data-role="header">
+      <!-- <input type="button" class="button" id="pause-btn" value="Pause/Resume">
+      <input type="button" class="button" id="clear-btn" value="Clear">
+      <input type="button" class="button" id="heatmap-btn" value="Toggle Heatmap"> -->
+      <h1>Conwat's Game of Life</h1>
+    </div>
+    <div id="itr-div" height="100" width="100"></div>
+    <div data-role="content">
+      <canvas data-role="canvas" id="surface" height="400" width="400">
+      </canvas>
+      <form id="options-form" name="options-form" enctype="multipart/form-data">
+      <!-- <button data-role="button" type="button" class="button" id="pause-btn" value="Pause/Resume">
+      </button>
+      <button data-role="button" type="button" class="button" id="clear-btn" value="Clear">
+      </button>
+      <button data-role="button" type="button" class="button" id="heatmap-btn" value="Toggle Heatmap">
+      </button> -->
+        <input data-role="button" type="button" class="button" id="pause-btn" value="Pause/Resume">
+      <input data-role="button" type="button" class="button" id="clear-btn" value="Clear">
+      <input data-role="button" type="button" class="button" id="heatmap-btn" value="Toggle Heatmap">
+        
+      </form>
+      <!-- <form method="post" action="/saved">
+        <fieldset data-role="collapsible">
+          <legend>Click me - I'm collapsible!</legend>
+          <label for="name">Full Name:</label>
+          <input type="text" name="text" id="name"/>
+          <p>Type: </p>
+          <div data-role="controlgroup">
+            <label for="red">Red</label>
+            <input type="text" name="favcolor" id="red" value="red"/>
+            <label for="title">Title</label>
+            <input type="text" name="title" id="title" value="title"/>
+            <div data-role="fieldcontain">
+              <label for="textarea">Textarea:</label>
+              <textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+            </div>
+          </div>
+          <input type="submit" data-inline="true" value="Submit" />
+        </fieldset> -->
+      <!-- </form>
+    </div>
+  </div> -->
+<!-- </body> -->
+<div data-role="footer">
+  This is a footer
+</div>
+</html>
